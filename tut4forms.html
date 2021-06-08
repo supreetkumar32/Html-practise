@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>this is form</h2>
+    <form action="backend.php">
+        <label for="fame">Fame</label>
+        <div>
+            <input type="text" name="myFame" id="fame"><!--id mey same word hona chahiye jo label for ke aage hoga-->
+        </div>
+        <br>
+    <div><!--div tag br tag ke jaisa kaam karta hai-->
+        Name: <input type="text" name="myName"><!--backened myName ke help se input wale name ko identify karega-->
+    </div>
+    <br><!--dono box ke between mey space dene ke liye br tag ka use karte hai-->
+    <div>
+     Role: <input type="text" name="myRole">
+     </div>
+     <br>
+     <div>
+         Email:  <input type="text" name="myEmail">
+     </div>
+     <br>
+     <div>
+         Date: <input type="date" name="myDate">
+     </div>
+     <br>
+     <div>
+         Bonus: <input type="number" name="myNumber" >
+     </div>
+     <br>
+     <div>
+         Are you eligible?: <input type="checkbox" name="myeligibility">
+     </div>
+     <br>
+     
+     <div>
+         Are you  not eligible?: <input type="checkbox" name="myeligibility" checked><!--pehle se hi checked rakhan eke liye-->
+     </div>
+     <br>
+     <div>
+         Gender:Male <input type="radio" name="myGender">Female<input type="radio" name="myGender">
+         <!--name =myName dono mey same likhane se ek ko hi tick kar sakte hai-->
+     </div>
+     <br>
+     <div>
+         Write about yourself : <textarea name="myText" clos="30" rows="10"></textarea>
+     </div>
+     <br>
+     <div>
+         <label for="car">Car</label>
+         <select name="myCar" id="car">
+             <option value="ind">Indica</option>
+             <option value="swf">Swift</option>
+         </select>
+     </div>
+     <br>
+     <div>
+         <input type="submit" value="Submit Now"><br>
+         <br>
+         <input type="reset" value="Reset Now"><br>
+     </div>
+     
+     
+    </form>
+</body>
+</html>
